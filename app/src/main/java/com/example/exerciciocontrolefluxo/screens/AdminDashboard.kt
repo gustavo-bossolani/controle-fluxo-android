@@ -25,7 +25,7 @@ fun AdminDashboard(
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Text(
-            text = "Bem vindo a Dashboard de Admin"
+            text = "Dashboard de Admin"
         )
         Spacer(modifier = Modifier.height(8.dp))
 

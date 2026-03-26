@@ -13,9 +13,6 @@ fun AppStateNavigation(
     loginAsAdmin: () -> Unit,
     logout: () -> Unit
 ) {
-
-
-
     when {
         isLoading -> LoadingScreen()
         isLoggedIn -> HomeNavGraph(
